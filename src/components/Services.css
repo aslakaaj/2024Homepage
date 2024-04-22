@@ -1,0 +1,17 @@
+.services_box {
+    background-color: var(--darker);
+    padding: 1rem;
+
+    max-width: 90rem;
+    border-radius: 2rem;
+}
+
+.services_list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.services_list li + li {
+    margin-left: 1rem;
+}

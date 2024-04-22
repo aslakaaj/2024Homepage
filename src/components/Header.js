@@ -1,7 +1,7 @@
 import name_logo from "../img/name_logo.svg";
-import "./Header"
+import "./Header.css";
 
-var Header = () => {
+const Header = () => {
   return (
     <div>
       <img src={name_logo} alt="Aslak Jønsson" />
