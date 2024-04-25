@@ -2,16 +2,31 @@
     background-color: var(--darker);
     padding: 1rem;
 
-    max-width: 90rem;
+    max-width: 70vw;
     border-radius: 2rem;
 }
 
+.services_box h2 {
+    text-align: center;
+    margin: 0 0;
+}
 .services_list {
     display: flex;
+    flex-direction: column;
+    gap: 4rem;
     margin: 0;
-    padding: 0;
+    padding: 0 2rem;
 }
 
-.services_list li + li {
-    margin-left: 1rem;
+
+.services_list li {
+    max-width: 25rem;
+    
 }
+
+@media only screen and (min-width: 60rem) {
+    .services_list{
+        flex-direction: row;
+        padding: 0;
+    }
+  }
