@@ -1,8 +1,22 @@
 .header_box {
     max-width: 70vw;
+    margin-bottom: 10rem;
 }
 
 .header_logo {
     max-width: 100%;
     height: auto;
 }
+
+@media only screen and (min-width: 60rem) {
+    .header_logo{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .header_box{
+        width: 50%;
+        text-align: left;
+    }
+  }

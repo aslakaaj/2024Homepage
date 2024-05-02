@@ -1,0 +1,21 @@
+{
+    "work": [
+        {
+            "title": "Tandoori Mix Ørsta",
+            "emoji": "🌶️",
+            "tag01": "Web Design",
+            "tag02": "Resturant",
+            "link": "https://www.tandoorimix.no/",
+            "img": "tandoori.webp"
+        },
+
+        {
+            "title": "Political Scandals",
+            "emoji": "🧐",
+            "tag01": "Personal",
+            "tag02": "Dynamic",
+            "link": "https://kontrovers.no/",
+            "img": "gattav.webp"
+        }
+    ]
+}
