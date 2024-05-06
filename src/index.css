@@ -2,6 +2,7 @@
   --dark: #1e1e1e;
   --darker: #181818;
   --text-color: #ffffff90;
+  --blue: #2CB3FF;
 
   font-size: 62.5%;
 }
@@ -25,6 +26,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
+}
+
+h1 {
+  font-family: "Six Caps", sans-serif;
+  font-weight: 400;
+  font-size: 6rem;
 }
 
 h2 {

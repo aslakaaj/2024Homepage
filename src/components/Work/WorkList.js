@@ -1,5 +1,5 @@
-import WorkTile from "./Work/WorkTile";
-import data from "../data/data.json";
+import WorkTile from "./WorkTile";
+import data from "../../data/data.json";
 import "./WorkList.css";
 
 const WorkList = () => {

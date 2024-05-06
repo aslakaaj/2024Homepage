@@ -1,0 +1,24 @@
+.footer_box{
+    background-color: var(--blue);
+    width: 100vw;
+    text-align: center;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.footer_title{
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.footer_btn {
+    background-color: var(--darker);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5rem;
+    width: 20rem;
+    height: 5rem;
+}
+
+.footer_btn:hover {
+    cursor: pointer;
+}
